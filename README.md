@@ -1,8 +1,11 @@
-# Nvidium
+# N Vid
 
-[![Modrinth](https://img.shields.io/modrinth/dt/nvidium?logo=modrinth)](https://modrinth.com/mod/nvidium)
+Dont expect much just doing some funny testing stuff and trying some stuff out
 
-Nvidium is an alternate rendering backing for sodium, it uses cutting edge nvidia features to render huge amounts of
-terrain geometry at very playable framerates.
+N Vid is a port of nvidium for 1.18.2 and other versions
 
-### Requires sodium and an nvidia gtx 1600 series or newer to run (turing+ architecture)
+ <img src="https://i.cbc.ca/1.6828776.1691000834!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/oppenheimer.jpg" alt="discord" />
+ <img src="https://i.cbc.ca/1.6828776.1691000834!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/oppenheimer.jpg" alt="discord" />
+ <img src="https://i.cbc.ca/1.6828776.1691000834!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/oppenheimer.jpg" alt="discord" />
+ <img src="https://i.cbc.ca/1.6828776.1691000834!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/oppenheimer.jpg" alt="discord" />
+

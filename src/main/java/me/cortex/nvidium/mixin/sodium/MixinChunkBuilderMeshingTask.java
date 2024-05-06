@@ -5,7 +5,7 @@ import me.cortex.nvidium.sodiumCompat.IRepackagedResult;
 import me.cortex.nvidium.sodiumCompat.SodiumResultCompatibility;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildContext;
 import me.jellysquid.mods.sodium.client.render.chunk.compile.ChunkBuildOutput;
-import me.jellysquid.mods.sodium.client.render.chunk.compile.tasks.ChunkBuilderMeshingTask;
+import me.jellysquid.mods.sodium.client.render.chunk.tasks.ChunkBuilderMeshingTask;
 import me.jellysquid.mods.sodium.client.util.task.CancellationToken;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

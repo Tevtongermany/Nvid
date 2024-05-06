@@ -1,16 +1,24 @@
 package me.cortex.nvidium;
 
 import me.cortex.nvidium.config.NvidiumConfig;
-import net.fabricmc.loader.api.FabricLoader;
-import net.fabricmc.loader.api.ModContainer;
+
+import net.minecraftforge.fml.common.Mod;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 import net.minecraft.util.Util;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.GL;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@Mod(Nvidium.MOD_ID)
 public class Nvidium {
-    public static final String MOD_VERSION;
-    public static final Logger LOGGER = LoggerFactory.getLogger("Nvidium");
+    public static final String MOD_ID = "nvidium";
+    public static final String MOD_VERSION = "0.2.6-beta"; // Update this with your mod version
+    public static final Logger LOGGER = LogManager.getLogger();
+
     public static boolean IS_COMPATIBLE = false;
     public static boolean IS_ENABLED = false;
     public static boolean IS_DEBUG = System.getProperty("nvidium.isDebug", "false").equals("TRUE");
@@ -19,10 +27,7 @@ public class Nvidium {
 
     public static NvidiumConfig config = NvidiumConfig.loadOrCreate();
 
-    static {
-        ModContainer mod = (ModContainer) FabricLoader.getInstance().getModContainer("nvidium").orElseThrow(NullPointerException::new);
-        MOD_VERSION = mod.getMetadata().getVersion().getFriendlyString();
-    }
+
     //TODO: basicly have the terrain be a virtual geometry buffer
     // once it gets too full, start culling via a callback task system
     // which executes a task on the gpu and calls back once its done

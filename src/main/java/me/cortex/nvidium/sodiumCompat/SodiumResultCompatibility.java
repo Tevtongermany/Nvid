@@ -9,8 +9,8 @@ import me.jellysquid.mods.sodium.client.render.chunk.terrain.DefaultTerrainRende
 import me.jellysquid.mods.sodium.client.util.NativeBuffer;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.util.math.Vec3d;
-import org.joml.Vector3f;
-import org.joml.Vector3i;
+import repack.joml.Vector3f;
+import repack.joml.Vector3i;
 import org.lwjgl.system.MemoryUtil;
 
 public class SodiumResultCompatibility {
